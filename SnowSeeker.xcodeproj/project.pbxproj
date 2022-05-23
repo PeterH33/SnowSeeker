@@ -11,6 +11,13 @@
 		4C67A157283941580071E323 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C67A156283941580071E323 /* ContentView.swift */; };
 		4C67A159283941580071E323 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C67A158283941580071E323 /* Assets.xcassets */; };
 		4C67A15C283941580071E323 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C67A15B283941580071E323 /* Preview Assets.xcassets */; };
+		4C67A163283AE38E0071E323 /* resorts.json in Resources */ = {isa = PBXBuildFile; fileRef = 4C67A162283AE38E0071E323 /* resorts.json */; };
+		4C67A166283AE4350071E323 /* Resort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C67A165283AE4350071E323 /* Resort.swift */; };
+		4C67A168283AE4C40071E323 /* Bundle-Decodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C67A167283AE4C40071E323 /* Bundle-Decodable.swift */; };
+		4C67A16A283AE7700071E323 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C67A169283AE7700071E323 /* WelcomeView.swift */; };
+		4C67A16C283AEF160071E323 /* ResortView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C67A16B283AEF160071E323 /* ResortView.swift */; };
+		4C67A16E283AEFF20071E323 /* SkiDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C67A16D283AEFF20071E323 /* SkiDetailsView.swift */; };
+		4C67A170283AF0630071E323 /* ResortDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C67A16F283AF0630071E323 /* ResortDetailsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +26,14 @@
 		4C67A156283941580071E323 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		4C67A158283941580071E323 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4C67A15B283941580071E323 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4C67A162283AE38E0071E323 /* resorts.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = resorts.json; path = "../../../../HackingWithSwift-main/SwiftUI/project19-files/resorts.json"; sourceTree = "<group>"; };
+		4C67A164283AE3940071E323 /* resorts.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = resorts.json; sourceTree = "<group>"; };
+		4C67A165283AE4350071E323 /* Resort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resort.swift; sourceTree = "<group>"; };
+		4C67A167283AE4C40071E323 /* Bundle-Decodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle-Decodable.swift"; sourceTree = "<group>"; };
+		4C67A169283AE7700071E323 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		4C67A16B283AEF160071E323 /* ResortView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResortView.swift; sourceTree = "<group>"; };
+		4C67A16D283AEFF20071E323 /* SkiDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkiDetailsView.swift; sourceTree = "<group>"; };
+		4C67A16F283AF0630071E323 /* ResortDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResortDetailsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +68,14 @@
 			children = (
 				4C67A154283941580071E323 /* SnowSeekerApp.swift */,
 				4C67A156283941580071E323 /* ContentView.swift */,
+				4C67A16D283AEFF20071E323 /* SkiDetailsView.swift */,
+				4C67A16F283AF0630071E323 /* ResortDetailsView.swift */,
+				4C67A16B283AEF160071E323 /* ResortView.swift */,
+				4C67A169283AE7700071E323 /* WelcomeView.swift */,
 				4C67A158283941580071E323 /* Assets.xcassets */,
+				4C67A164283AE3940071E323 /* resorts.json */,
+				4C67A165283AE4350071E323 /* Resort.swift */,
+				4C67A167283AE4C40071E323 /* Bundle-Decodable.swift */,
 				4C67A15A283941580071E323 /* Preview Content */,
 			);
 			path = SnowSeeker;
@@ -62,6 +84,7 @@
 		4C67A15A283941580071E323 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
+				4C67A162283AE38E0071E323 /* resorts.json */,
 				4C67A15B283941580071E323 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
@@ -125,6 +148,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C67A163283AE38E0071E323 /* resorts.json in Resources */,
 				4C67A15C283941580071E323 /* Preview Assets.xcassets in Resources */,
 				4C67A159283941580071E323 /* Assets.xcassets in Resources */,
 			);
@@ -137,8 +161,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C67A16A283AE7700071E323 /* WelcomeView.swift in Sources */,
+				4C67A16E283AEFF20071E323 /* SkiDetailsView.swift in Sources */,
+				4C67A170283AF0630071E323 /* ResortDetailsView.swift in Sources */,
 				4C67A157283941580071E323 /* ContentView.swift in Sources */,
+				4C67A166283AE4350071E323 /* Resort.swift in Sources */,
+				4C67A16C283AEF160071E323 /* ResortView.swift in Sources */,
 				4C67A155283941580071E323 /* SnowSeekerApp.swift in Sources */,
+				4C67A168283AE4C40071E323 /* Bundle-Decodable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +305,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -304,6 +335,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
