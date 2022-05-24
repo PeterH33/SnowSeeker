@@ -19,9 +19,23 @@ struct ResortView: View {
     var body: some View {
         ScrollView {
             VStack(alignment: .leading, spacing: 0) {
+                //day 99 challenge 1
+                ZStack{
                 Image(decorative: resort.id)
                     .resizable()
                     .scaledToFit()
+                    VStack{
+                        Spacer()
+                        HStack{
+                            Spacer()
+                    Text("Photo by: \(resort.imageCredit)")
+                                .font(.caption2)
+                                .background(.ultraThinMaterial)
+                                .clipShape(Capsule())
+                        }
+                    }
+                }
+                //End day 99 challenge 1
                 HStack {
                     if sizeClass == .compact && typeSize > .large {
                         VStack(spacing: 10) { ResortDetailsView(resort: resort) }
