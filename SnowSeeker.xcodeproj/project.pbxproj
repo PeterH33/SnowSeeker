@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4C5C3912283D49D3002F0450 /* resorts.json in Resources */ = {isa = PBXBuildFile; fileRef = 4C5C3911283D49D2002F0450 /* resorts.json */; };
 		4C67A155283941580071E323 /* SnowSeekerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C67A154283941580071E323 /* SnowSeekerApp.swift */; };
 		4C67A157283941580071E323 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C67A156283941580071E323 /* ContentView.swift */; };
 		4C67A159283941580071E323 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C67A158283941580071E323 /* Assets.xcassets */; };
 		4C67A15C283941580071E323 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C67A15B283941580071E323 /* Preview Assets.xcassets */; };
-		4C67A163283AE38E0071E323 /* resorts.json in Resources */ = {isa = PBXBuildFile; fileRef = 4C67A162283AE38E0071E323 /* resorts.json */; };
 		4C67A166283AE4350071E323 /* Resort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C67A165283AE4350071E323 /* Resort.swift */; };
 		4C67A168283AE4C40071E323 /* Bundle-Decodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C67A167283AE4C40071E323 /* Bundle-Decodable.swift */; };
 		4C67A16A283AE7700071E323 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C67A169283AE7700071E323 /* WelcomeView.swift */; };
@@ -23,13 +23,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4C5C3911283D49D2002F0450 /* resorts.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = resorts.json; sourceTree = "<group>"; };
 		4C67A151283941580071E323 /* SnowSeeker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SnowSeeker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C67A154283941580071E323 /* SnowSeekerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnowSeekerApp.swift; sourceTree = "<group>"; };
 		4C67A156283941580071E323 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		4C67A158283941580071E323 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4C67A15B283941580071E323 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4C67A162283AE38E0071E323 /* resorts.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = resorts.json; path = "../../../../HackingWithSwift-main/SwiftUI/project19-files/resorts.json"; sourceTree = "<group>"; };
-		4C67A164283AE3940071E323 /* resorts.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = resorts.json; sourceTree = "<group>"; };
 		4C67A165283AE4350071E323 /* Resort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resort.swift; sourceTree = "<group>"; };
 		4C67A167283AE4C40071E323 /* Bundle-Decodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle-Decodable.swift"; sourceTree = "<group>"; };
 		4C67A169283AE7700071E323 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
@@ -79,8 +79,8 @@
 				4C67A177283BDBF90071E323 /* Facility.swift */,
 				4C67A169283AE7700071E323 /* WelcomeView.swift */,
 				4C67A158283941580071E323 /* Assets.xcassets */,
-				4C67A164283AE3940071E323 /* resorts.json */,
 				4C67A165283AE4350071E323 /* Resort.swift */,
+				4C5C3911283D49D2002F0450 /* resorts.json */,
 				4C67A167283AE4C40071E323 /* Bundle-Decodable.swift */,
 				4C67A15A283941580071E323 /* Preview Content */,
 			);
@@ -154,7 +154,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4C67A163283AE38E0071E323 /* resorts.json in Resources */,
+				4C5C3912283D49D3002F0450 /* resorts.json in Resources */,
 				4C67A15C283941580071E323 /* Preview Assets.xcassets in Resources */,
 				4C67A159283941580071E323 /* Assets.xcassets in Resources */,
 			);
