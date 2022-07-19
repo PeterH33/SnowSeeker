@@ -34,7 +34,7 @@ struct ContentView: View {
     
     var filteredResorts: [Resort] {
         if searchText.isEmpty {
-            //dayy 99 challenge 3 change these to use the sorted variable
+            //day 99 challenge 3 change these to use the sorted variable
             return sortedResorts
         } else {
             return sortedResorts.filter { $0.name.localizedCaseInsensitiveContains(searchText) }
@@ -82,7 +82,7 @@ struct ContentView: View {
                                 .foregroundColor(.red)
                         }
                     }
-                }//endlistlabel
+                }//end list label
             }//endlist
             
             //Day 99 challenge 3 Toolbar button
@@ -97,7 +97,7 @@ struct ContentView: View {
             }
             .navigationTitle("Resorts")
             .searchable(text: $searchText, prompt: "Search for a resort")
-            //Day 99 chalenge 3 confirmation dialog
+            //Day 99 challenge 3 confirmation dialog
             .confirmationDialog("Choose Sort Order", isPresented: $showingSortConfirmation, titleVisibility: .visible){
                 Button("Default"){
                     currentSortingOrder = .none
